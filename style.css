@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 1rem;
+  background: #f4f4f4;
+  color: #232323;
+}
+header {
+  background: #232323;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  margin: 2rem 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.project-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  padding: 1rem;
+  width: 300px;
+}
+.social-links a {
+  margin-right: 10px;
+  color: #0077b5;
+}
+footer {
+  text-align: center;
+  color: #888;
+  margin: 2rem 0 1rem;
+}
